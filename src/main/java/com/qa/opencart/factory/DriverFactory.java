@@ -42,6 +42,10 @@ public class DriverFactory {
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
 		return driver;
 	}
+	
+//	public WebDriver getDriver() {
+//		return driver;
+//	}
 
 		
 	
