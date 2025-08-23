@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.opencart.test.HomePageTest">
+      <class name="com.qa.opencart.test.ProductInfoPageTest">
         <methods>
+          <include name="productHeaderImageTest"/>
           <include name="setup"/>
-          <include name="searchTest"/>
           <include name="homePageSetup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.opencart.test.HomePageTest -->
+      </class> <!-- com.qa.opencart.test.ProductInfoPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

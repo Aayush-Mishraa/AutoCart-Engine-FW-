@@ -4,8 +4,11 @@ import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.qa.opencart.constants.AppConstants;
 import com.qa.opencart.util.ElementUtil;
+
+import io.qameta.allure.Step;
 
 public class LoginPage {
 	
@@ -23,28 +26,29 @@ public class LoginPage {
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgetPwdLink = By.linkText("Forgotten Password");
 	
-	
+	@Step("Getting login page title...")
 	public String getLoginPageTitle() {
 		String  title = elementUtil.waitForTitleIs(AppConstants.LOGIN_PAGE_TITLE, AppConstants.DEFAULT_TIMEOUT);
 //		String  title =driver.getTitle();
 		System.out.println("Login Page title==> "+title );
+		ChainTestListener.log("Login Page title==> "+title );
 		return title;
 		
 	}
-	
+	@Step("	Getting login page url...")	
 	public String getLoginPageUrl() {
 		
-		String  url = elementUtil.waitForTitleIs(AppConstants.LOGIN_PAGE_URL_FRACTION, AppConstants.DEFAULT_TIMEOUT);
+		String  url = elementUtil.waitForURLContains(AppConstants.LOGIN_PAGE_URL_FRACTION, AppConstants.DEFAULT_TIMEOUT);
 		System.out.println("Login Page tirltle==> "+url );
 		return url;
 		
 	}
-	
+	@Step("Checking forget pwd link exist...")	
 	public boolean isForgetPwdLinkExist() {
-		return driver.findElement(forgetPwdLink).isDisplayed(); 
+		return elementUtil.doIsElementDisplayed(forgetPwdLink);
 		
 	}
-	
+	@Step("Login with username: {0} and password: {1}")
 	public @Nullable HomePage  doLogin(String username, String pwd) {
 		System.out.println("App card are==>" + username+ " : " + pwd);
 		elementUtil.waitForElementVisible(email, AppConstants.DEFAULT_TIMEOUT).sendKeys(username);
