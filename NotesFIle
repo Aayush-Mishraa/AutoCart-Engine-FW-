@@ -1,0 +1,37 @@
+	This is multi Command to run maven project or cicd comands and also to run the project in different environments
+	
+	
+	// * mvn clean install -Denv="qa"
+	// * mvn clean install -Denv="dev"
+	// * mvn clean install -Denv="stage"
+	// * mvn clean install -Denv="uat"
+	// * mvn clean install -Denv="prod"
+	====================================================================================================
+// we also can give password by system propery 
+
+    // * mvn clean install -Denv="qa" -Dpassword="test@123"
+    // * mvn clean install -Denv="dev" -Dpassword="test@123"
+    // * mvn clean install -Denv="stage" -Dpassword="test@123"
+    // * mvn clean install -Denv="uat" -Dpassword="test@123"
+    // * mvn clean install -Denv="prod" -Dpassword="test@123"	
+    
+   by using system.property(password) we can override the password which is given in config.properties file
+   if we are not giving password by system.property then it will take from config.properties file
+   
+   ==========================================================================================================
+    there is one more way to run maven 
+    buy using eclipse go to the project right click on the project and go to 
+    run as ==>maven build
+    goals==> clean install -Denv="qa" or dev or stage or uat or prod
+    then click on apply then run button
+    
+    
+    then in goals give clean install -Denv="qa" or dev or stage or uat or prod
+    then click on run button
+    
+    
+    
+    Allure Report Note:
+    Notes 
+ @Epic("Epic - 101 : Design Login Page for Open Cart Application....")
+@Story("US - 201 : Login Page Features with title, url, forget pwd link, login test and logo...")
