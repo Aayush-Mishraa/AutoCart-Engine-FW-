@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="32" passed="31" failed="1" skipped="0">
+<testng-results retried="3" ignored="3" total="38" passed="31" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-23T18:48:26 IST" name="Opencart App Test Regression Suite" finished-at="2025-08-23T18:48:59 IST" duration-ms="33631">
+  <suite started-at="2025-08-23T23:10:58 IST" name="Opencart App Test Regression Suite" finished-at="2025-08-23T23:11:26 IST" duration-ms="27930">
     <groups>
     </groups>
-    <test started-at="2025-08-23T18:48:26 IST" name="Login Page Test" finished-at="2025-08-23T18:48:37 IST" duration-ms="11592">
+    <test started-at="2025-08-23T23:10:58 IST" name="Login Page Test" finished-at="2025-08-23T23:11:08 IST" duration-ms="10417">
       <class name="com.qa.opencart.test.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:26 IST" name="setup" finished-at="2025-08-23T18:48:33 IST" duration-ms="7147" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:10:58 IST" name="setup" finished-at="2025-08-23T23:11:05 IST" duration-ms="6938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:33 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:33 IST" duration-ms="336" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:05 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:05 IST" duration-ms="185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,18 +29,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:34 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:05 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:05 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:34 IST" duration-ms="215" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:05 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:05 IST" duration-ms="184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,18 +51,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:05 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:05 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:34 IST" duration-ms="198" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:05 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:06 IST" duration-ms="178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,18 +73,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:34 IST" duration-ms="214" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:06 IST" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,18 +95,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:34 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:35 IST" duration-ms="201" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:06 IST" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,18 +117,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:35 IST" duration-ms="231" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:06 IST" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,18 +139,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T18:48:35 IST" duration-ms="202" status="PASS">
+        <test-method signature="footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="footerTest" data-provider="getFooterData" finished-at="2025-08-23T23:11:06 IST" duration-ms="153" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,169 +161,482 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=footerTest status=SUCCESS method=LoginPageTest.footerTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="forgetLPwdLinkTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="forgetLPwdLinkTest" finished-at="2025-08-23T18:48:35 IST" duration-ms="47" status="PASS">
+        <test-method signature="forgetLPwdLinkTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="forgetLPwdLinkTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgetLPwdLinkTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=forgetLPwdLinkTest status=SUCCESS method=LoginPageTest.forgetLPwdLinkTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=forgetLPwdLinkTest status=SUCCESS method=LoginPageTest.forgetLPwdLinkTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="loginPageTitleTest" finished-at="2025-08-23T18:48:35 IST" duration-ms="35" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="loginPageTitleTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="loginPageUrlTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="loginPageUrlTest" finished-at="2025-08-23T18:48:35 IST" duration-ms="25" status="PASS">
+        <test-method signature="loginPageUrlTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="loginPageUrlTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageUrlTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPageUrlTest status=SUCCESS method=LoginPageTest.loginPageUrlTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=loginPageUrlTest status=SUCCESS method=LoginPageTest.loginPageUrlTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="logoTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="logoTest" finished-at="2025-08-23T18:48:35 IST" duration-ms="35" status="PASS">
+        <test-method signature="logoTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="logoTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoTest status=SUCCESS method=LoginPageTest.logoTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=logoTest status=SUCCESS method=LoginPageTest.logoTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:35 IST" name="loginTest" finished-at="2025-08-23T18:48:37 IST" duration-ms="1914" status="PASS">
+        <test-method signature="loginTest()[pri:2147483647, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:06 IST" name="loginTest" finished-at="2025-08-23T23:11:08 IST" duration-ms="1580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:37 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:08 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:08 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:2147483647, instance:com.qa.opencart.test.LoginPageTest@55f4887d] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:2147483647, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@55f4887d]" started-at="2025-08-23T18:48:37 IST" name="tearDown" finished-at="2025-08-23T18:48:37 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@1a5a4f8]" started-at="2025-08-23T23:11:08 IST" name="tearDown" finished-at="2025-08-23T23:11:08 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2025-08-23T18:48:26 IST" name="Home Page Test" finished-at="2025-08-23T18:48:55 IST" duration-ms="29237">
-      <class name="com.qa.opencart.test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:26 IST" name="setup" finished-at="2025-08-23T18:48:33 IST" duration-ms="7458" status="PASS">
+    <test started-at="2025-08-23T23:10:58 IST" name="Product Info Page Test" finished-at="2025-08-23T23:11:24 IST" duration-ms="25786">
+      <class name="com.qa.opencart.test.ProductInfoPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:10:58 IST" name="setup" finished-at="2025-08-23T23:11:04 IST" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:33 IST" name="homePageSetup" finished-at="2025-08-23T18:48:35 IST" duration-ms="2085" status="PASS">
+        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:04 IST" name="homePageSetup" finished-at="2025-08-23T23:11:05 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageSetup -->
-        <test-method signature="headerTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:35 IST" name="headerTest" finished-at="2025-08-23T18:48:36 IST" duration-ms="169" status="PASS">
+        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:06 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T23:11:09 IST" duration-ms="3259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderImageTest -->
+        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:09 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T23:11:11 IST" duration-ms="1664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderImageTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:09 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:11 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T23:11:13 IST" duration-ms="1987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderImageTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:11 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:13 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:13 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T23:11:15 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderImageTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:15 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:15 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T23:11:17 IST" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderImageTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:17 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:17 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T23:11:18 IST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:18 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:18 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T23:11:19 IST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:19 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:19 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T23:11:21 IST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:21 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:21 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T23:11:22 IST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:22 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:22 IST" name="productInfoTest" finished-at="2025-08-23T23:11:23 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:23 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productInfoTest status=SUCCESS method=ProductInfoPageTest.productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@6c6b00f1]" started-at="2025-08-23T23:11:23 IST" name="tearDown" finished-at="2025-08-23T23:11:24 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.ProductInfoPageTest -->
+    </test> <!-- Product Info Page Test -->
+    <test started-at="2025-08-23T23:10:58 IST" name="Home Page Test" finished-at="2025-08-23T23:11:26 IST" duration-ms="27930">
+      <class name="com.qa.opencart.test.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:10:58 IST" name="setup" finished-at="2025-08-23T23:11:04 IST" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:04 IST" name="homePageSetup" finished-at="2025-08-23T23:11:05 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method signature="headerTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:05 IST" name="headerTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=headerTest status=SUCCESS method=HomePageTest.headerTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=headerTest status=SUCCESS method=HomePageTest.headerTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="homePageTitileTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="homePageTitileTest" finished-at="2025-08-23T18:48:36 IST" duration-ms="28" status="PASS">
+        <test-method signature="homePageTitileTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="homePageTitileTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitileTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homePageTitileTest status=SUCCESS method=HomePageTest.homePageTitileTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=homePageTitileTest status=SUCCESS method=HomePageTest.homePageTitileTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="homePageUrlTest" finished-at="2025-08-23T18:48:36 IST" duration-ms="26" status="PASS">
+        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="homePageUrlTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageUrlTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homePageUrlTest status=SUCCESS method=HomePageTest.homePageUrlTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=homePageUrlTest status=SUCCESS method=HomePageTest.homePageUrlTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="logoutLinkExitsTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="logoutLinkExitsTest" finished-at="2025-08-23T18:48:36 IST" duration-ms="54" status="PASS">
+        <test-method signature="logoutLinkExitsTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="logoutLinkExitsTest" finished-at="2025-08-23T23:11:06 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutLinkExitsTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoutLinkExitsTest status=SUCCESS method=HomePageTest.logoutLinkExitsTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=logoutLinkExitsTest status=SUCCESS method=HomePageTest.logoutLinkExitsTest()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:36 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:37 IST" duration-ms="1465" status="FAIL">
+        <test-method retried="true" signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:06 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:07 IST" duration-ms="1161" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -369,18 +689,210 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:38 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:38 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:07 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:08 IST" duration-ms="334" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=FAILURE method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SKIP method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:38 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:39 IST" duration-ms="1160" status="PASS">
+        <test-method retried="true" signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:08 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:08 IST" duration-ms="692" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at com.qa.opencart.test.HomePageTest.searchTest(HomePageTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:08 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:09 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SKIP method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method retried="true" signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:09 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:09 IST" duration-ms="727" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at com.qa.opencart.test.HomePageTest.searchTest(HomePageTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:09 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:10 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SKIP method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:10 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:10 IST" duration-ms="665" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at com.qa.opencart.test.HomePageTest.searchTest(HomePageTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:10 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:11 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=FAILURE method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:11 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:12 IST" duration-ms="1014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,18 +908,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:39 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:39 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:39 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:40 IST" duration-ms="1236" status="PASS">
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:12 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:13 IST" duration-ms="1044" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -423,18 +924,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:40 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:12 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:40 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:42 IST" duration-ms="1399" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:13 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:13 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:14 IST" duration-ms="1015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -450,18 +962,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:42 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:14 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:14 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:42 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:53 IST" duration-ms="11294" status="PASS">
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:14 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:25 IST" duration-ms="10935" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -477,18 +989,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:53 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:25 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:25 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:53 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T18:48:55 IST" duration-ms="1911" status="PASS">
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:25 IST" name="searchTest" data-provider="getSearchData" finished-at="2025-08-23T23:11:26 IST" duration-ms="1017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -504,321 +1016,22 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:55 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:26 IST" name="attachScreenshot" finished-at="2025-08-23T23:11:26 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.HomePageTest@1e84f3c8]" started-at="2025-08-23T18:48:55 IST" name="tearDown" finished-at="2025-08-23T18:48:55 IST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.HomePageTest@29d29657]" started-at="2025-08-23T23:11:26 IST" name="tearDown" finished-at="2025-08-23T23:11:26 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.HomePageTest -->
     </test> <!-- Home Page Test -->
-    <test started-at="2025-08-23T18:48:26 IST" name="Product Info Page Test" finished-at="2025-08-23T18:48:59 IST" duration-ms="33631">
-      <class name="com.qa.opencart.test.ProductInfoPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:26 IST" name="setup" finished-at="2025-08-23T18:48:33 IST" duration-ms="7147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:33 IST" name="homePageSetup" finished-at="2025-08-23T18:48:35 IST" duration-ms="2039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageSetup -->
-        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:36 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T18:48:40 IST" duration-ms="3098" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderImageTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:40 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:40 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:40 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T18:48:43 IST" duration-ms="3847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Air]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderImageTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:43 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:43 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:43 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T18:48:46 IST" duration-ms="2485" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[imac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderImageTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:46 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:46 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:46 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T18:48:48 IST" duration-ms="1995" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung SyncMaster 941BW]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderImageTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:48 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:48 IST" name="productHeaderImageTest" data-provider="getProductImageSheetData" finished-at="2025-08-23T18:48:50 IST" duration-ms="2236" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy Tab 10.1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderImageTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:50 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:50 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderImageTest status=SUCCESS method=ProductInfoPageTest.productHeaderImageTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:50 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T18:48:52 IST" duration-ms="1922" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Macbook]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MacBook Pro]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:52 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:52 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:52 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T18:48:54 IST" duration-ms="1610" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[iMac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:54 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:54 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:54 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T18:48:56 IST" duration-ms="1932" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung SyncMaster 941BW]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:56 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:56 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:56 IST" name="productHeaderTest" data-provider="getProductData" finished-at="2025-08-23T18:48:57 IST" duration-ms="1750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy Tab 10.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productHeaderTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:57 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:57 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:57 IST" name="productInfoTest" finished-at="2025-08-23T18:48:59 IST" duration-ms="1815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:59 IST" name="attachScreenshot" finished-at="2025-08-23T18:48:59 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productInfoTest status=SUCCESS method=ProductInfoPageTest.productInfoTest()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- attachScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.ProductInfoPageTest@75fd65c]" started-at="2025-08-23T18:48:59 IST" name="tearDown" finished-at="2025-08-23T18:48:59 IST" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.test.ProductInfoPageTest -->
-    </test> <!-- Product Info Page Test -->
   </suite> <!-- Opencart App Test Regression Suite -->
 </testng-results>

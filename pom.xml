@@ -79,7 +79,7 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
-
+<!--LOG4J DEPENDENC		-->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
@@ -110,7 +110,11 @@
         <forkCount>3</forkCount>
         <reuseForks>true</reuseForks>
         <suiteXmlFiles>
-          <suiteXmlFile>src/test/resources/testrunner/testing_regression.xml</suiteXmlFile>
+        
+        
+         <!--  <suiteXmlFile>src/test/resources/testrunner/testing_regression.xml</suiteXmlFile>-->
+         <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+  
         </suiteXmlFiles>
         
         
@@ -127,6 +131,8 @@
 				</dependencies>
     </plugin>
   </plugins>
-    
+   
   </build>
 </project>
+
+

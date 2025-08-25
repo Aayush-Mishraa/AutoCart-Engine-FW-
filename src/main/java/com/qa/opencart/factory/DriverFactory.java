@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,6 +32,7 @@ public class DriverFactory {
 	public static String highlight;;
 
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
+	private static final Logger log = LogManager.getLogger(DriverFactory.class);
 	// WHEN WE WANT TO USE THREAD LOCAL WEBDRIVER
 	// MEANS THAT WHEN WE WANT TO RUN TESTS IN PARALLEL
 	// WE USE THREAD LOCAL WEBDRIVER
@@ -38,7 +40,8 @@ public class DriverFactory {
 @Step("Initializing the driver using properties: {0}")
 	public WebDriver initDriver(Properties prop) {
 		String browserName = prop.getProperty("browser");
-
+        log.info("browser name is : " + browserName);
+        
 		highlight = prop.getProperty("highlight");
 		optionsManager = new OptionsManager(prop);
 
@@ -65,7 +68,9 @@ public class DriverFactory {
 			break;
 		}
 		default:
-			System.out.println("please pass the valid browser " + browserName);
+//			System.out.println("please pass the valid browser " + browserName);
+			
+			 log.info("please pass the valid browser: " + browserName);
 			throw new FrameworkException("===invalid browser name===");
 
 		}
@@ -100,7 +105,8 @@ public class DriverFactory {
 		prop = new Properties();
 		try {
 			if (envName == null) {
-				System.out.println("No environment is specified, running tests on QA environment...");
+//				System.out.println("No environment is specified, running tests on QA environment...");
+				 log.info("No environment is specified, running tests on QA environment...");
 				ip = new FileInputStream(AppConstants.CONFIG_QA_PROP_FILE_PATH);
 			} else {
 				switch (envName.toLowerCase()) {

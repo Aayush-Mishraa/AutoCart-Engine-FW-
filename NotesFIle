@@ -35,3 +35,13 @@
     Notes 
  @Epic("Epic - 101 : Design Login Page for Open Cart Application....")
 @Story("US - 201 : Login Page Features with title, url, forget pwd link, login test and logo...")
+
+===============log4j.properties file is used to configure the log4j framework================
+for print all the logs in console and in file we need to create log4j.properties file
+log.info("This is info message");
+log.warn("This is warn message");
+log.fatal("This is fatal message");
+log.debug("This is debug message");
+log.error("This is error message");	
+log.trace("This is trace message");	
+log4j.rootLogger=DEBUG, CONSOLE, FILE		

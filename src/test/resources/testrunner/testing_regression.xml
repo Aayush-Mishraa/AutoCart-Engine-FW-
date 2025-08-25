@@ -2,16 +2,15 @@
 <!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
 <suite name="Opencart App Test Regression Suite" thread-count="3" parallel="tests" verbose="4">
 
-
-
-   
     <listeners>
      <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
       <listener class-name="com.qa.opencart.listener.TestAllureListener"/>
+      <listener class-name="com.qa.opencart.listener.AnnotationTransformer"/>
     </listeners>>
 
     <!-- Login Page Test Suite -->
     <test name="Login Page Test">
+  <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.qa.opencart.test.LoginPageTest"/>
         </classes>
@@ -19,6 +18,7 @@
 
     <!-- Home Page Test Suite -->
     <test name="Home Page Test">
+      <parameter name="browser" value="chrome"/>
         <classes> 
         
             <class name="com.qa.opencart.test.HomePageTest"/>	
@@ -27,7 +27,8 @@
     </test>
 
     <!-- Product Info Page Test Suite -->
-    <test name="Product Info Page Test">   
+    <test name="Product Info Page Test">  
+      <parameter name="browser" value="chrome"/> 
         <classes>
             <class name="com.qa.opencart.test.ProductInfoPageTest"/>
         </classes>

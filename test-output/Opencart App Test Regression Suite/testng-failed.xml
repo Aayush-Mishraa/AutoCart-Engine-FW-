@@ -4,8 +4,10 @@
   <listeners>
     <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
     <listener class-name="com.qa.opencart.listener.TestAllureListener"/>
+    <listener class-name="com.qa.opencart.listener.AnnotationTransformer"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Home Page Test(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.qa.opencart.test.HomePageTest">
         <methods>

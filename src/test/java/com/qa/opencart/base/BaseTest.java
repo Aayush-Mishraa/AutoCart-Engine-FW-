@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.aventstack.chaintest.service.ChainPluginService;
@@ -33,17 +34,26 @@ public class BaseTest {
 	protected SearchResultPage searchResultPage;
 	protected ProductInfoPage productInfoPage;
 	protected CommonsPage commonsPage;
+	
+	
+	
 	@Description("Setup: initialize the driver and launch the browser")
+	@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	public void setup(String browserName) {
+
+		df = new DriverFactory();
+		prop = df.initProp();
+		
+		if(browserName!=null) {
+			System.out.println("Browser name is: "+ browserName);
+			prop.setProperty("browser", browserName);
+		}
 
 //		ChainPluginService.getInstance().addSystemInfo("Build#", "v1.0.0");
 //		ChainPluginService.getInstance().addSystemInfo("Headless", prop.getProperty("headless"));
 //		ChainPluginService.getInstance().addSystemInfo("Incognito", prop.getProperty("incognito"));
 //		ChainPluginService.getInstance().addSystemInfo("Owner", "Aayush Mishra");
-
-		df = new DriverFactory();
-		prop = df.initProp();
 
 		driver = df.initDriver(prop);
 		loginPage = new LoginPage(driver);
