@@ -31,6 +31,7 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 .mvn
+.mvn/
 
 ##############################
 ## IntelliJ
