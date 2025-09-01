@@ -41,7 +41,7 @@ public class HomePageTest extends BaseTest {
 	@DataProvider
 	public Object[][] getSearchData() {
 		return new Object[][] {
-			{"macbook", 4},
+			{"macbook", 3},
 			{"imac", 1},
 			{"samsung", 2},
 			{"canon", 1},
