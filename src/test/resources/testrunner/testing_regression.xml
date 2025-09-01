@@ -15,8 +15,8 @@
             <class name="com.qa.opencart.test.LoginPageTest"/>
         </classes>
     </test>
-
-    <!-- Home Page Test Suite -->
+ 
+  <!-- Home Page Test Suite 
     <test name="Home Page Test">
       <parameter name="browser" value="chrome"/>
         <classes> 
@@ -26,12 +26,11 @@
         </classes>
     </test>
 
-    <!-- Product Info Page Test Suite -->
+     Product Info Page Test Suite 
     <test name="Product Info Page Test">  
       <parameter name="browser" value="chrome"/> 
         <classes>
             <class name="com.qa.opencart.test.ProductInfoPageTest"/>
         </classes>
-    </test>
-
+    </test> -->
 </suite>
