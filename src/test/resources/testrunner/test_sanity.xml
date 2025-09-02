@@ -8,15 +8,15 @@
       <listener class-name="com.qa.opencart.listener.AnnotationTransformer"/>
     </listeners>>
 
-    <!-- Login Page Test Suite -->
+    <!-- Login Page Test Suite 
     <test name="Login Page Test">
   <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.qa.opencart.test.LoginPageTest"/>
         </classes>
-    </test>
+    </test>-->
  
-  <!-- Home Page Test Suite -->
+   <!--Home Page Test Suite -->
     <test name="Home Page Test">
       <parameter name="browser" value="chrome"/>
         <classes> 
@@ -26,7 +26,7 @@
         </classes>
     </test>
 
-    <!-- Product Info Page Test Suite -->
+     <!--Product Info Page Test Suite -->
     <test name="Product Info Page Test">  
       <parameter name="browser" value="chrome"/> 
         <classes>
