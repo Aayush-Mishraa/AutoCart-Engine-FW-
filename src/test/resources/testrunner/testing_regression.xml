@@ -18,7 +18,7 @@
  
   <!-- Home Page Test Suite -->
     <test name="Home Page Test">
-      <parameter name="browser" value="chrome"/>
+      <parameter name="browser" value="firefox"/>
         <classes> 
         
             <class name="com.qa.opencart.test.HomePageTest"/>	
@@ -28,7 +28,7 @@
 
     <!-- Product Info Page Test Suite -->
     <test name="Product Info Page Test">  
-      <parameter name="browser" value="chrome"/> 
+      <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.qa.opencart.test.ProductInfoPageTest"/>
         </classes>

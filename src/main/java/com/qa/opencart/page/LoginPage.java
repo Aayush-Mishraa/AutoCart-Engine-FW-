@@ -49,7 +49,7 @@ public class LoginPage {
 		
 	}
 	@Step("Login with username: {0} and password: {1}")
-	public @Nullable HomePage  doLogin(String username, String pwd) {
+	public HomePage  doLogin(String username, String pwd) {
 		System.out.println("App card are==>" + username+ " : " + pwd);
 		elementUtil.waitForElementVisible(email, AppConstants.DEFAULT_TIMEOUT).sendKeys(username);
 		elementUtil.waitForElementVisible(password, AppConstants.DEFAULT_TIMEOUT).sendKeys(pwd);
