@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
@@ -34,20 +35,19 @@ public class BaseTest {
 	protected SearchResultPage searchResultPage;
 	protected ProductInfoPage productInfoPage;
 	protected CommonsPage commonsPage;
-	
-	
-	
+
 	@Description("Setup: initialize the driver and launch the browser")
-	@Parameters("browser")
+	@Parameters({ "browser", "browserversion" })
 	@BeforeClass
-	public void setup(String browserName) {
+	public void setup(String browserName, @Optional("latest") String browserVersion) {
 
 		df = new DriverFactory();
 		prop = df.initProp();
-		
-		if(browserName!=null) {
-			System.out.println("Browser name is: "+ browserName);
+
+		if (browserName != null) {
+			System.out.println("Browser name is: " + browserName);
 			prop.setProperty("browser", browserName);
+			prop.setProperty("browserversion", browserVersion);
 		}
 
 //		ChainPluginService.getInstance().addSystemInfo("Build#", "v1.0.0");
@@ -60,6 +60,7 @@ public class BaseTest {
 		commonsPage = new CommonsPage(driver);
 
 	}
+
 	@Description("Take screenshot on test failure")
 	@AfterMethod
 	public void attachScreenshot(ITestResult result) {

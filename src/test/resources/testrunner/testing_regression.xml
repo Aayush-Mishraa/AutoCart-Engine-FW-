@@ -1,36 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
-<suite name="Opencart App Test Regression Suite" thread-count="3" parallel="tests" verbose="4">
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="Opencart App Test Regression Suite" thread-count="3"
+	parallel="tests" verbose="4">
 
-    <listeners>
-     <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
-      <listener class-name="com.qa.opencart.listener.TestAllureListener"/>
-      <listener class-name="com.qa.opencart.listener.AnnotationTransformer"/>
-    </listeners>>
+	<listeners>
+		<listener
+			class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+		<listener
+			class-name="com.qa.opencart.listener.TestAllureListener" />
+		<listener
+			class-name="com.qa.opencart.listener.AnnotationTransformer" />
+	</listeners>
+	>
 
-    <!-- Login Page Test Suite -->
-    <test name="Login Page Test">
-  <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.qa.opencart.test.LoginPageTest"/>
-        </classes>
-    </test>
- 
-  <!-- Home Page Test Suite -->
-    <test name="Home Page Test">
-      <parameter name="browser" value="firefox"/>
-        <classes> 
-        
-            <class name="com.qa.opencart.test.HomePageTest"/>	
-            			
-        </classes>
-    </test>
+	<!-- Login Page Test Suite -->
+	<test name="Login Page Test - Chrome 126">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="126.0" />
+		<classes>
+			<class name="com.qa.opencart.test.LoginPageTest" />
+		</classes>
+	</test>
 
-    <!-- Product Info Page Test Suite -->
-    <test name="Product Info Page Test">  
-      <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.qa.opencart.test.ProductInfoPageTest"/>
-        </classes>
-    </test> 
+	<test name="Login Page Test - Chrome 123">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="123.0" />
+		<classes>
+			<class name="com.qa.opencart.test.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Login Page Test - Chrome 113">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="113.0" />
+		<classes>
+			<class name="com.qa.opencart.test.LoginPageTest" />
+		</classes>
+	</test>
+
+	<!-- Home Page Test Suite -->
+	<test name="Home Page Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="latest" />
+		<classes>
+			<class name="com.qa.opencart.test.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Product Info Page Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="126.0" />
+		<classes>
+			<class name="com.qa.opencart.test.ProductInfoPageTest" />
+		</classes>
+	</test>
+
 </suite>

@@ -1,5 +1,7 @@
 package com.qa.opencart.factory;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
@@ -36,6 +38,16 @@ public class OptionsManager {
 		}
 		if(Boolean.parseBoolean(prop.getProperty("remote"))) {
 			co.setCapability("browserName", "chrome");
+			co.setCapability("browserVersion", prop.getProperty("browserversion"));
+			
+			Map<String, Object> selenoidOptions = new HashMap<String, Object>();
+			selenoidOptions.put("enableVNC", true);
+			selenoidOptions.put("screenResolution", "1920x1080x24");
+			selenoidOptions.put("enableVideo", false);
+			selenoidOptions.put("name", prop.getProperty("testname"));
+			co.setCapability("selenoid:options", selenoidOptions);
+			
+			
 		}
 		return co;
 	}
