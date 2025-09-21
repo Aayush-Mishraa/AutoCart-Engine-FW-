@@ -44,4 +44,5 @@ log.fatal("This is fatal message");
 log.debug("This is debug message");
 log.error("This is error message");	
 log.trace("This is trace message");	
+log4j.rootLogger=DEBUG, CONSOLE, FILE	
 log4j.rootLogger=DEBUG, CONSOLE, FILE		
